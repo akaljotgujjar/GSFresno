@@ -20,15 +20,15 @@ export default function Home() {
         </div>
       </div>
 
-      <div className="container m-auto mt-10">
-        <div className="flex flex-grow p-20 rounded-xl justify-center bg-gradient-to-br from-yellow-300 to-yellow-500 ">
-          <h1 className="text-7xl justify-evenly">Gobind Sarvar News</h1>
-          <p className="">
+      <div className="container m-auto mt-10 ">
+        <div className="flex flex-grow p-20 rounded-xl justify-center bg-gradient-to-br from-yellow-300 to-yellow-500 grid grid-flow-row auto-rows-max md:auto-rows-min mb-10">
+          <h1 className="text-7xl justify-evenly mb-10 font-medium tracking-wide">Gobind Sarvar News</h1>
+          <p className="m-10 text-blue-500 text-lg">
             Gobind Sarvar Fresno will remain open to online classes until
             further notice.
           </p>
-          <p>Online Registration Form Coming Soon!</p>
-          <p>Please visit the Resources section for course material.</p>
+          <p className="m-10">Online Registration Form Coming Soon!</p>
+          <p className="m-10">Please visit the Resources section for course material.</p>
         </div>
       </div>
     </div>
