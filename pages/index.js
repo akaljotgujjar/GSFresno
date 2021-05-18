@@ -14,16 +14,24 @@ export default function Home() {
       {/* <Nav /> */}
       <Navbar />
 
-      <div className="grid grid-cols-6">
-        <div className="col-start-1 col-end-5 bg-blue-900">
-          <p className="text-center mt-10 mb-10 text-3xl text-white">
+      <div className="grid grid-cols-2">
+        <div className="grid-cols-1 bg-blue-900 max-h-">
+          <p className="text-center text-3xl text-white">
             We are Gobind Sarvar, developing "Today's Learner... Tomorrow's
             Guide"
           </p>
         </div>
 
-        <div className="col-start-5 col-end-7 bg-gradient-to-br from-yellow-300 to-yellow-500">
-          <p className="text-center mt-10 text-3xl">Gobind Sarvar News</p>
+        <div className="grid-cols-2 bg-gradient-to-br from-yellow-300 to-yellow-500">
+          <p className="text-center text-3xl">Gobind Sarvar News</p>
+          <ul className="list-none">
+            <li className="mb-10">
+              Gobind Sarvar Fresno will remain open to online classes until
+              further notice.
+            </li>
+            <li className="mb-10">Online Registration Form Coming Soon!</li>
+            <li className="mb-10">Please visit the Resources section for course material. </li>
+          </ul>
         </div>
       </div>
 

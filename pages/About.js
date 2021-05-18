@@ -10,7 +10,9 @@ function About() {
       </Head>
 
       <Nav />
-      <h1 className="text-red-500">About</h1>
+      <div className="h-64 grid grid-rows-3 grid-flow-col">
+        About
+        </div>
     </div>
   );
 }
