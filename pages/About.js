@@ -10,9 +10,12 @@ function About() {
       </Head>
 
       <Nav />
-      <div className="h-64 grid grid-rows-3 grid-flow-col">
-        About
-        </div>
+      <div className="h-64 grid grid-rows-3 ">
+        <div>1</div>
+        <div>1</div>
+        <div>1</div>
+
+      </div>
     </div>
   );
 }
