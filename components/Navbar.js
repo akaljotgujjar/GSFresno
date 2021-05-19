@@ -35,7 +35,7 @@ function Navbar() {
           </Link>
         </div>
       </div>
-      <button className=" inline-flex p-3 bg-blue-900 hover:bg-green-600 rounded lg:hidden text-white ml-auto hover:text-white outline-none" onClick={handleClick}>
+      <button className=" inline-flex p-3 bg-blue-900 hover:bg-gradient-to-br from-yellow-300 to-yellow-500 rounded lg:hidden text-white ml-auto hover:text-white outline-none">
         <svg
           className="w-6 h-6"
           fill="none"
