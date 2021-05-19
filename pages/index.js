@@ -15,7 +15,7 @@ export default function Home() {
       <div className="grid md:grid-cols-3 gap-4 m-10">
         {/* column one */}
         <div className="col-span-2 bg-gradient-to-br from-blue-500 to-blue-800 rounded-lg max-h-20 p-5 shadow-2xl">
-          <h1 className="text-white text-center xl:text-3xl font-semibold">
+          <h1 className="text-white text-center xl:text-2xl font-semibold">
             We Are GOBIND SARVAR, developing "Today's Learner... Tomorrow's
             Guide"
           </h1>
