@@ -1,5 +1,6 @@
 import Head from "next/head";
 import Nav from "../components/Nav";
+import Navbar from "../components/Navbar";
 
 function Resources() {
   return (
@@ -9,7 +10,7 @@ function Resources() {
         <link rel="icon" href="/GS logo.png" />
       </Head>
 
-      <Nav />
+      <Navbar />
       <h1>Resources</h1>
     </div>
   );
