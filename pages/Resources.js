@@ -22,7 +22,7 @@ function Resources() {
       <div className="grid lg:grid-cols-2 gap-6 m-10">
         <div className="bg-red-100 col-span-1 p-10 rounded-lg shadow-xl ">
           <Link href="/Gurmukhi">
-            <a className="lg:text-3xl font-bold tracking-wider justify-items-center">
+            <a className="lg:text-3xl font-bold tracking-wider">
               Gurmukhi
             </a>
           </Link>

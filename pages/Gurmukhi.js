@@ -17,7 +17,13 @@ function Gurmukhi() {
         </h1>
       </div>
 
-      
+      <div className="bg-yellow-100 ">
+        <div className="h-120 w-80 m-auto bg-red-100">
+          <h1 className="lg:text-3xl text-center font-bold tracking-wider">
+            Gurmukhi Level 1
+          </h1>
+        </div>
+      </div>
     </div>
   );
 }
